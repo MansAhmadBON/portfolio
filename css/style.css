@@ -70,7 +70,7 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
 }
 
 .navigation__list .navigation__item:hover {
-    background-color: #b3d4fc;
+    background-color: #c0c0c0;
 }
 
 .navigation__list .navigation__item a {
@@ -80,11 +80,6 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
     font-size: 18px;
     font-weight: 600;
 }
-
-
-
-
-
 
 .social-links__list {
     width: 70%;
@@ -98,8 +93,8 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
 }
 
 .social-links__list .social-links__item a {
-    height: 51px;
-    width: 51px;
+    height: 35px;
+    width: 35px;
     display: block;
     background-repeat: no-repeat;
     background-size: contain;
@@ -117,3 +112,56 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
 .social-links__list .social-links__item .social-links__link--li {
     background-image: url("../assets/images/svg/linkedin.svg");
 }
+
+
+/* main-section */
+.wrapper-section {
+    flex-basis: 100%;
+    min-height: 100vh;
+}
+
+.main-section {
+    background-image: url("../assets/images/bg/bg-1.jpeg");
+    background-size: cover;
+    height: 100%;
+}
+
+.main-section .wrapper-content {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-content .main-section__content {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.wrapper-content .main-section__content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.wrapper-content .main-section__content .main-section__text {
+    margin-top: 10px;
+}
+
+.main-section__text a {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
