@@ -2,7 +2,7 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
     font-family: 'Raleway', sans-serif;
 }
 
-.main-section {
+.main-section, .about-section {
     display: none;
 }
 
@@ -50,6 +50,7 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
 
 .avatar-box .avatar-box__prof {
     font-weight: 500;
+    color: #ee7400;
 }
 
 .navigation {
@@ -73,8 +74,8 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
     transition: all .3s ease-in-out;
 }
 
-.navigation__list .navigation__item:hover {
-    background-color: #c0c0c0;
+.navigation__list .navigation__item:hover a {
+    color: #ee7400;
 }
 
 .navigation__list .navigation__item a {
@@ -83,6 +84,7 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
     color: #000;
     font-size: 18px;
     font-weight: 600;
+    transition: color .3s;
 }
 
 .social-links__list {
@@ -132,9 +134,7 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
 
 .main-section .wrapper-content {
     height: 100%;
-    width: 100%;
     background-color: rgba(0, 0, 0, .7);
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -156,6 +156,58 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
 
 .main-section__text a {
     color: #fff;
+    transition: all .3s;
+}
+.main-section__text a:hover {
+    color: #ee7400;
+}
+
+
+/* about-section */
+.about-section {
+    min-height: 100vh;
+    background-image: url("../assets/images/bg/bg-2.jpg");
+    background-size: cover;
+}
+
+.about-section .wrapper-content {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.wrapper-content .about-section__title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #ee7400;
+}
+
+.about-section .wrapper-content .wrapper-text {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .6);
+    margin-bottom: 100px;
+    padding: 40px;
+}
+
+.about-section .wrapper-text .about-section__text--common {
+    max-width: 55%;
+    line-height: 1.5em;
+}
+
+.about-section .wrapper-text h4 {
+    margin-bottom: 10px;
+}
+
+.about-section .wrapper-text .about-section__fact {
+    margin-bottom: 10px;
+}
+
+.about-section .wrapper-text .about-section__text--secondary {
+    line-height: 1.5em;
 }
 
 
@@ -169,3 +221,29 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-active {
+    display: block;
+}
