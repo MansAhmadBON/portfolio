@@ -2,7 +2,7 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
     font-family: 'Raleway', sans-serif;
 }
 
-.main-section, .about-section {
+.main-section, .about-section, .profile-section {
     display: none;
 }
 
