@@ -170,7 +170,7 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
     background-size: cover;
 }
 
-.about-section .wrapper-content {
+.about-section .wrapper-content, .profile-section .wrapper-content {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, .7);
@@ -178,7 +178,7 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
     padding-top: 100px;
 }
 
-.wrapper-content .about-section__title {
+.wrapper-content .about-section__title, .profile-section .wrapper-content h2 {
     font-size: 30px;
     margin-bottom: 40px;
     margin-left: 20px;
@@ -186,23 +186,23 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
     color: #ee7400;
 }
 
-.about-section .wrapper-content .wrapper-text {
+.about-section .wrapper-content .wrapper-text, .profile-section .content-block {
     width: 100%;
     background-color: rgba(255, 255, 255, .6);
     margin-bottom: 100px;
     padding: 40px;
 }
 
-.about-section .wrapper-text .about-section__text--common {
+.about-section .wrapper-text .about-section__text--common, .profile-section .content-block .content-block__descr {
     max-width: 55%;
     line-height: 1.5em;
 }
 
-.about-section .wrapper-text h4 {
+.about-section .wrapper-text h4, .profile-section .content-block h4 {
     margin-bottom: 10px;
 }
 
-.about-section .wrapper-text .about-section__fact {
+.about-section .wrapper-text .about-section__fact, .profile-section .content-block__list li  {
     margin-bottom: 10px;
 }
 
@@ -211,11 +211,43 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
 }
 
 
+/* profile-section */
+.profile-section {
+    min-height: 100vh;
+    background-image: url("../assets/images/bg/bg-5.jpg");
+    background-size: cover;
+}
 
+.profile-section .content-block .content-block__text {
+    display: block;
+    margin-bottom: 10px;
+}
 
+.profile-section .content-block .content-block__list {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.profile-section .content-block__list li {
+    margin-right: 10px;
+}
 
+.profile-section .download-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    height: 60px;
+    width: 160px;
+    background-color: #ee7400;
+    border-radius: 5px;
+}
 
+.profile-section .download-cv span {
+    color: #fff;
+    font-size: 20px;
+}
 
 
 
