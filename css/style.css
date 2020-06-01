@@ -2,6 +2,10 @@ p, h1, h2, h3, h4, a, input, textarea, button, li, span {
     font-family: 'Raleway', sans-serif;
 }
 
+.main-section {
+    display: none;
+}
+
 /* NAV-BAR */
 .wrapper-content {
     min-height: 100vh;
